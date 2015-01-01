@@ -1,4 +1,13 @@
-Red/System []
+Red/System [
+	Title:   "Demo"
+	Author:  "Thomas Royko"
+	File: 	 %DemoLauncher.reds
+	Tabs:	 4
+	Rights:  "Copyright (C) 2015 Thomas Royko. All rights reserved."
+	License: {
+		Distributed under the Boost Software License, Version 1.0.
+	}
+]
 
 #include %../lib/Mono.reds
 
@@ -29,4 +38,4 @@ if system/args-count < 2 [
 	system/args-count: system/args-count + 1
 ]
 
-_monobinding/jit-exec mono-ptr/mono/domain mono-ptr/mono/assembly system/args-count - 1 system/args-list + 1
+mono-ptr/mono/jit-exec mono-ptr/mono/domain mono-ptr/mono/assembly system/args-count - 1 system/args-list + 1

@@ -1,4 +1,13 @@
-Red/System []
+Red/System [
+	Title:   "Mono bridge"
+	Author:  "Thomas Royko"
+	File: 	 %MonoAPI.reds
+	Tabs:	 4
+	Rights:  "Copyright (C) 2015 Thomas Royko. All rights reserved."
+	License: {
+		Distributed under the Boost Software License, Version 1.0.
+	}
+]
 
 #define func-ptr!			integer!
 #define mono-domain!		int-ptr!
