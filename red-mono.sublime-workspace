@@ -1,0 +1,618 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"M",
+				"MONOLIB"
+			],
+			[
+				"MONO",
+				"MONO_LIB_BOEHM"
+			],
+			[
+				"m",
+				"mono-assembly-close"
+			],
+			[
+				"mono",
+				"mono-set-dirs"
+			],
+			[
+				"mono-do",
+				"mono-domain-assembly-open"
+			],
+			[
+				"mono-a",
+				"mono-add-internal-call"
+			],
+			[
+				"mono-ji",
+				"mono-jit-init-version"
+			],
+			[
+				"mono-",
+				"mono-config-parse"
+			],
+			[
+				"Mono",
+				"MonoAPI"
+			],
+			[
+				"a",
+				"assembly"
+			],
+			[
+				"mo",
+				"mono-jit-cleanup"
+			],
+			[
+				"cl",
+				"cleanClose"
+			],
+			[
+				"ass",
+				"assembly-name"
+			],
+			[
+				"assembly",
+				"assembly-name"
+			],
+			[
+				"ar",
+				"args-count"
+			],
+			[
+				"mono-args",
+				"mono-args-ptr"
+			],
+			[
+				"f",
+				"fake-args-count"
+			],
+			[
+				"fake",
+				"fake-args-list"
+			],
+			[
+				"mon",
+				"mono-root"
+			],
+			[
+				"pr",
+				"prj_bin"
+			],
+			[
+				"prj_",
+				"prj_bin"
+			],
+			[
+				"b",
+				"buildFiles"
+			],
+			[
+				"Des",
+				"DestPath"
+			],
+			[
+				"Src",
+				"SrcPath"
+			],
+			[
+				"Fil",
+				"FileList"
+			],
+			[
+				"copy",
+				"copyFiles"
+			],
+			[
+				"depe",
+				"depends_end"
+			],
+			[
+				"dep",
+				"depends_size"
+			],
+			[
+				"pe",
+				"pexport	#export"
+			],
+			[
+				"p",
+				"pexport	#export"
+			],
+			[
+				"exp",
+				"export	#export"
+			],
+			[
+				"sw",
+				"switch	#switch"
+			],
+			[
+				"in",
+				"include	#include"
+			],
+			[
+				"to",
+				"to-rebol-file"
+			],
+			[
+				"na",
+				"native"
+			],
+			[
+				"nati",
+				"native"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/Mono.reds",
+			"settings":
+			{
+				"buffer_size": 3695,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/MonoAPI.reds",
+			"settings":
+			{
+				"buffer_size": 1699,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/DemoLauncher.reds",
+			"settings":
+			{
+				"buffer_size": 1144,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"git ch",
+				"Git: Checkout"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git che",
+				"Git: Checkout"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"ch",
+				"Git: Checkout"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git chec",
+				"Git: Checkout"
+			],
+			[
+				"git ",
+				"Git: Fetch"
+			],
+			[
+				"git pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git r",
+				"Git: Remote"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git diff ",
+				"Git: Diff Cached"
+			],
+			[
+				"git dif",
+				"Git: Diff"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git bra",
+				"Git: Checkout New Branch"
+			],
+			[
+				"legit",
+				"Legit: Branches"
+			],
+			[
+				"gitpu",
+				"Git: Pull"
+			],
+			[
+				"git f",
+				"Git: Fetch"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"snip",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"x = window.new_file()",
+			"x = window.newFile()",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Thomas/Documents/Programming/red-mono_old/src/DemoLauncher.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/src/Mono.reds",
+		"/C/Users/Thomas/Documents/Programming/red/system/bridges/java/JNI.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/src2/monodemo.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/src/MonoAPI.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/src/mono.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/src/monodemo.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/src/test.reds",
+		"/C/Users/Thomas/Documents/Programming/red/system/bridges/java/JNIdemo.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/build.bat",
+		"/C/Users/Thomas/Documents/Programming/red/bridges/java/bridge.red",
+		"/C/Users/Thomas/Desktop/powerobjs.reb",
+		"/C/Users/Thomas/Documents/Programming/red/system/bridges/java/JNIdemo.java",
+		"/C/Users/Thomas/Documents/Programming/red/bridges/java/README.md",
+		"/C/Users/Thomas/Documents/Programming/red/bridges/java/hello.red",
+		"/C/Users/Thomas/Documents/Programming/red/bridges/java/bridge.java",
+		"/C/Users/Thomas/Documents/Programming/red/system/bridges/java/README.md",
+		"/C/Users/Thomas/Documents/Programming/red-mono/test/test/test.csproj",
+		"/C/Users/Thomas/Documents/Programming/red-mono/test/test/test.sln",
+		"/C/Users/Thomas/Documents/Programming/red-mono/red-mono.sublime-project",
+		"/C/Users/Thomas/Documents/Programming/red-mono/monodemo.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/mono.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/common.reds",
+		"/C/Users/Thomas/Downloads/red-29nov14-ac9383c.exe",
+		"/C/Users/Thomas/Documents/Programming/red/runtime/console/input.red",
+		"/C/Users/Thomas/Documents/Programming/red/runtime/console/console.red",
+		"/C/Users/Thomas/Documents/Programming/red/runtime/console/help.red",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/README.md",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/sublime-red.sublime-project",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/Red.sublime-completions",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/#define.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/#system.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/Red.tmLanguage",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/Red.JSON-tmLanguage",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/#define-macro.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/#switch.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/#include.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/#if.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/#call.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/#either.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/#enum.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/#export.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/Enum.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/DefineMacro.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/Define.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/Include.sublime-snippet",
+		"/C/Users/Thomas/Desktop/New folder/#include-(inc angle).sublime-snippet",
+		"/C/Users/Thomas/Desktop/New folder/#include-(inc).sublime-snippet",
+		"/C/Users/Thomas/Desktop/New folder (2)/Try-Except-Else-Finally.sublime-snippet",
+		"/C/Users/Thomas/Desktop/New folder (2)/method.sublime-snippet",
+		"/C/Users/Thomas/Desktop/final.txt",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/Red-REBOL.tmTheme",
+		"/C/Users/Thomas/AppData/Local/Temp/Temp1_Drupal6.sublime-completions.zip/Drupal6.sublime-completions",
+		"/C/Users/Thomas/Desktop/New folder (2)/Python.sublime-build",
+		"/C/Users/Thomas/Desktop/New folder (2)/for.sublime-snippet",
+		"/C/Users/Thomas/Desktop/New folder (2)/Completion Rules.tmPreferences",
+		"/C/Users/Thomas/Desktop/New folder/namespace-..-(namespace).sublime-snippet",
+		"/C/Users/Thomas/Desktop/New folder/Completion Rules.tmPreferences",
+		"/C/Users/Thomas/Desktop/New folder/Comments (C++).tmPreferences",
+		"/C/Users/Thomas/Desktop/New folder/#ifndef-#define-#endif.sublime-snippet",
+		"/C/Users/Thomas/Documents/Programming/red/.git/info/exclude",
+		"/C/Users/Thomas/Desktop/Build.tmLanguage",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/.git/config",
+		"/C/Users/Thomas/Documents/Programming/sublime-red/.git/refs/remotes/origin/master",
+		"/C/Program Files (x86)/Git/etc/profile",
+		"/C/Program Files (x86)/Git/etc/gitconfig",
+		"/C/Users/Thomas/AppData/Local/Temp/7zOB93D.tmp/C.tmLanguage"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\\\",
+			"|",
+			"\\\\",
+			"   "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"	"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/Mono.reds",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Red/Red.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/MonoAPI.reds",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Red/Red.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/DemoLauncher.reds",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Red/Red.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-checkout":
+	{
+		"height": 100.0
+	},
+	"output.git-commit":
+	{
+		"height": 79.0
+	},
+	"output.git-fetch":
+	{
+		"height": 100.0
+	},
+	"output.git-init":
+	{
+		"height": 35.0
+	},
+	"output.git-merge":
+	{
+		"height": 100.0
+	},
+	"output.git-pull":
+	{
+		"height": 100.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
+	"output.git-remote":
+	{
+		"height": 100.0
+	},
+	"project": "red-mono.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
