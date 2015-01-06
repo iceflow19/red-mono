@@ -11,7 +11,8 @@ Vision
 The [Common Language Infrastructure](http://www.ecma-international.org/publications/standards/Ecma-335.htm) is a robust platform and the mono implementation of it even more so.  Mono enjoys the support of both Microsoft, Novell, and several other companies.  Through Xamarin/Mono, cross platform assemblies can be compiled for a variety of platforms including:
 
 PC/Embedded: Windows, Mac, Linux, BSD
-Mobile:      Android, Apple, Ubuntu (Mobile)
+
+Mobile:      Android, Apple, Ubuntu Phone
 
 The **Common Intermediate Language** on Mono is also supported by [several](http://www.mono-project.com/docs/about-mono/languages/) different programming languages: C#, F#, Scala, Boo, Nemerle, VB.NET, IronPython, IronJS, etc.  Another component of the mono package is IKVM.NET, which is a CLR implementation of the JVM.  As a result any languages targeting the JVM can be ran on the Mono Virtual Machine.
 
