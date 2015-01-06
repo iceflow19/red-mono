@@ -38,7 +38,7 @@ Currently the bridge has only been confirmed to build on windows, I'll work on o
 
 1. Clone the repository
 
-2. [Install Mono](http://www.mono-project.com/download/)  Defaults are fine.
+2. [Install Mono](http://www.mono-project.com/download/) - Defaults are fine.
 
 3. [Install Xamarin Studio](http://www.monodevelop.com/download/)
 
