@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"pc",
+				"pinclude	#include"
+			],
+			[
+				"p",
+				"penum	#enum"
+			],
+			[
 				"M",
 				"MONOLIB"
 			],
@@ -120,10 +128,6 @@
 				"pexport	#export"
 			],
 			[
-				"p",
-				"pexport	#export"
-			],
-			[
 				"exp",
 				"export	#export"
 			],
@@ -155,23 +159,7 @@
 			"file": "lib/Mono.reds",
 			"settings":
 			{
-				"buffer_size": 3695,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lib/MonoAPI.reds",
-			"settings":
-			{
-				"buffer_size": 1699,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/DemoLauncher.reds",
-			"settings":
-			{
-				"buffer_size": 1144,
+				"buffer_size": 2247,
 				"line_ending": "Windows"
 			}
 		}
@@ -182,6 +170,14 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
 			[
 				"git",
 				"Git: Status"
@@ -215,20 +211,12 @@
 				"Git: Checkout"
 			],
 			[
-				"git st",
-				"Git: Status"
-			],
-			[
 				"git c",
 				"Git: Commit"
 			],
 			[
 				"git chec",
 				"Git: Checkout"
-			],
-			[
-				"git ",
-				"Git: Fetch"
 			],
 			[
 				"git pu",
@@ -283,7 +271,7 @@
 				"Snippet: #!/usr/bin/env"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -305,8 +293,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Thomas/Documents/Programming/red-mono",
+		"/C/Users/Thomas/Documents/Programming/red-mono/lib",
+		"/C/Users/Thomas/Documents/Programming/red-mono/src"
+	],
 	"file_history":
 	[
+		"/C/Users/Thomas/Documents/Programming/red-mono/lib/MonoAPI.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/src/DemoLauncher.reds",
+		"/C/Users/Thomas/Documents/Programming/red-mono/README.md",
+		"/C/Users/Thomas/Documents/Programming/red-mono/lib/Mono.reds",
+		"/C/Users/Thomas/Desktop/RenTest/rencpp-develop/CMakeLists.txt",
+		"/C/Users/Thomas/Desktop/RenTest/rencpp-develop/examples/workbench/workbench.bat",
+		"/C/Program Files (x86)/mingw-w64/i686-4.9.2-posix-dwarf-rt_v3-rev1/mingw-w64.bat",
+		"/C/Users/Thomas/Desktop/RenTest/rebol-master/make/makefile",
+		"/C/Users/Thomas/Documents/Programming/red-mono/red-mono.sublime-project",
 		"/C/Users/Thomas/Documents/Programming/red-mono_old/src/DemoLauncher.reds",
 		"/C/Users/Thomas/Documents/Programming/red-mono/src/Mono.reds",
 		"/C/Users/Thomas/Documents/Programming/red/system/bridges/java/JNI.reds",
@@ -326,7 +329,6 @@
 		"/C/Users/Thomas/Documents/Programming/red/system/bridges/java/README.md",
 		"/C/Users/Thomas/Documents/Programming/red-mono/test/test/test.csproj",
 		"/C/Users/Thomas/Documents/Programming/red-mono/test/test/test.sln",
-		"/C/Users/Thomas/Documents/Programming/red-mono/red-mono.sublime-project",
 		"/C/Users/Thomas/Documents/Programming/red-mono/monodemo.reds",
 		"/C/Users/Thomas/Documents/Programming/red-mono/mono.reds",
 		"/C/Users/Thomas/Documents/Programming/red-mono/common.reds",
@@ -414,7 +416,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -423,77 +425,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3695,
+						"buffer_size": 2247,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14,
-								233
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Red/Red.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "lib/MonoAPI.reds",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1699,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								172,
-								172
+								1705,
+								1705
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Red/Red.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/DemoLauncher.reds",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1144,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								312,
-								312
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Red/Red.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -610,7 +556,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 233.0,
+	"side_bar_width": 250.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

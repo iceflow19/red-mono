@@ -30,7 +30,7 @@ Red/System [
 ;==================================================
 ; Binding
 ;==================================================
-_monobinding: context [
+monovm: context [
 	#import [ MONOLIB cdecl [
 
 		config-parse: "mono_config_parse" [
@@ -44,10 +44,6 @@ _monobinding: context [
 			name		[c-string!]
 			version		[c-string!]
 			return:		[mono-domain!]]
-
-		add-internal-call: "mono_add_internal_call" [
-			name		[c-string!]
-			function	[func-ptr!]]
 
 		domain-assembly-open: "mono_domain_assembly_open" [
 			domain		[mono-domain!]
@@ -73,74 +69,20 @@ _monobinding: context [
 	]]
 ]
 
-;==================================================
-; Binding Wrapper
-;==================================================
 _mono: context [
-	
-	config-parse: func [
-		config		[c-string!]
-	][
-		_monobinding/config-parse config
-	]
+	#import [ MONOLIB cdecl [
 
-	jit-init: func [
-		name		[c-string!]
-		return:		[mono-domain!]
-	][
-		_monobinding/jit-init name
-	]
+		_add-internal-call: "mono_add_internal_call" [
+			name		[c-string!]
+			function	[func-ptr!]]
 
-	jit-init-version: func [
-		name		[c-string!]
-		version		[c-string!]
-		return:		[mono-domain!]
-	][
-		_monobinding/jit-init-version name version
-	]
+	]]
 
 	add-internal-call: func [
 		name		[c-string!]
 		handle		[func-ptr!]
 	][
-		_monobinding/add-internal-call name handle
-	]
-
-	domain-assembly-open: func [
-		domain		[mono-domain!]
-		exe			[c-string!]
-		return:		[mono-assembly!]
-	][
-		_monobinding/domain-assembly-open domain exe
-	]
-
-	jit-exec: func [
-		domain		[mono-domain!]
-		assembly	[mono-assembly!]
-		argc		[integer!]
-		argv		[struct! [item [c-string!]]]
-		return:		[integer!]
-	][
-		_mono/jit-exec domain assembly argc argv
-	]
-
-	jit-cleanup: func [
-		domain		[mono-domain!]
-	][
-		_monobinding/jit-cleanup domain
-	]
-
-	set-dirs: func [
-		lib-dir		[c-string!]
-		etc-dir		[c-string!]
-	][
-		_monobinding/set-dirs lib-dir etc-dir
-	]
-
-	assembly-close: func [
-		assembly 	[mono-assembly!]
-	][
-		_monobinding/assembly-close assembly
+		_add-internal-call name handle
 	]
 ]
 
@@ -151,13 +93,5 @@ mono-ptr: declare mono-ptr!
 mono-ptr/mono: declare MonoAPI!
 
 with [ _mono ] [
-	mono-ptr/mono/config-parse: :config-parse
-	mono-ptr/mono/jit-init: :jit-init
-	mono-ptr/mono/jit-init-version: :jit-init-version
 	mono-ptr/mono/add-internal-call: :add-internal-call
-	mono-ptr/mono/domain-assembly-open: :domain-assembly-open
-	mono-ptr/mono/jit-exec: :jit-exec
-	mono-ptr/mono/jit-cleanup: :jit-cleanup
-	mono-ptr/mono/set-dirs: :set-dirs
-	mono-ptr/mono/assembly-close: :assembly-close
 ]

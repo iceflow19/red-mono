@@ -21,14 +21,14 @@ Red/System [
 #define MONO_DOMAIN_NAME "Managed"
 
 ;Init Mono VM
-mono-ptr/mono/config-parse null
+monovm/config-parse null
 #if OS = 'Windows [
-	mono-ptr/mono/set-dirs MONORT_LIB_DIR MONORT_ETC_DIR
+	monovm/set-dirs MONORT_LIB_DIR MONORT_ETC_DIR
 ]
 
 ;Prep and open assembly
-mono-ptr/mono/domain:   mono-ptr/mono/jit-init-version MONO_DOMAIN_NAME "v4.0.30128"
-mono-ptr/mono/assembly: mono-ptr/mono/domain-assembly-open mono-ptr/mono/domain NET_USER_ASSEM
+mono-ptr/mono/domain:   monovm/jit-init-version MONO_DOMAIN_NAME "v4.0.30128"
+mono-ptr/mono/assembly: monovm/domain-assembly-open mono-ptr/mono/domain NET_USER_ASSEM
 
 ;Overwrite first arg with assembly name to satisfy mono
 args: system/args-list
@@ -38,4 +38,4 @@ if system/args-count < 2 [
 	system/args-count: system/args-count + 1
 ]
 
-mono-ptr/mono/jit-exec mono-ptr/mono/domain mono-ptr/mono/assembly system/args-count - 1 system/args-list + 1
+monovm/jit-exec mono-ptr/mono/domain mono-ptr/mono/assembly system/args-count - 1 system/args-list + 1
