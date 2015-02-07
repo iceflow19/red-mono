@@ -155,14 +155,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "lib/Mono.reds",
-			"settings":
-			{
-				"buffer_size": 2247,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -171,15 +163,19 @@
 		"selected_items":
 		[
 			[
-				"git st",
+				"git",
 				"Git: Status"
+			],
+			[
+				"gt",
+				"Git: Show"
 			],
 			[
 				"git ",
 				"Git: Status"
 			],
 			[
-				"git",
+				"git st",
 				"Git: Status"
 			],
 			[
@@ -271,7 +267,7 @@
 				"Snippet: #!/usr/bin/env"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -295,16 +291,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Thomas/Documents/Programming/red-mono",
-		"/C/Users/Thomas/Documents/Programming/red-mono/lib",
-		"/C/Users/Thomas/Documents/Programming/red-mono/src"
+		"/C/Users/Thomas/Documents/Programming/red-mono"
 	],
 	"file_history":
 	[
+		"/C/Users/Thomas/Documents/Programming/red-mono/lib/Mono.reds",
+		"/C/Program Files (x86)/mingw-w64/i686-4.9.2-posix-dwarf-rt_v3-rev1/mingw32/msys/msys.bat",
 		"/C/Users/Thomas/Documents/Programming/red-mono/lib/MonoAPI.reds",
 		"/C/Users/Thomas/Documents/Programming/red-mono/src/DemoLauncher.reds",
 		"/C/Users/Thomas/Documents/Programming/red-mono/README.md",
-		"/C/Users/Thomas/Documents/Programming/red-mono/lib/Mono.reds",
 		"/C/Users/Thomas/Desktop/RenTest/rencpp-develop/CMakeLists.txt",
 		"/C/Users/Thomas/Desktop/RenTest/rencpp-develop/examples/workbench/workbench.bat",
 		"/C/Program Files (x86)/mingw-w64/i686-4.9.2-posix-dwarf-rt_v3-rev1/mingw-w64.bat",
@@ -416,38 +411,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "lib/Mono.reds",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2247,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1705,
-								1705
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Red/Red.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
