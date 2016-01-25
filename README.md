@@ -46,4 +46,4 @@ Currently the bridge has only been confirmed to build on windows, I'll work on o
 
 5. [Download](http://www.red-lang.org/p/download.html) the most recent version of Red and place in project root.
 
-6. red-050 -c -o bin\demo.exe src\DemoLauncher.reds
+6. red-050 -c -o bin\demo.exe src\DemoLauncher.reds **or**  do/args %red.r "-c -o ..\bin\demo.exe ..\src\DemoLauncher.reds"
